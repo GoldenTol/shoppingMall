@@ -1,0 +1,30 @@
+-- 장바구니에 상품 담고, 주문하기 테스트
+SET SQL_SAFE_UPDATES=0;
+delete from cart_products ;
+delete from carts ;
+delete from order_product ;
+delete from orders ;
+commit;
+
+로그인 하기
+장바구니에 담기
+1번 1개
+2번 2개
+3번 3개 
+4번 4개
+
+로그 아웃 하기
+로그인 하기
+장바구니 확인
+
+장바구니 수량 변경
+	1번 1개 -> 5개로 변경해보기
+
+로그 아웃 하기
+로그인 하기
+2번 삭제하기
+로그 아웃 하기
+로그인 하기
+	1번, 3번만 주문하기
+체크 항목 선택 없이 주문 버튼 눌러 보기
+우측 상단 상품 검색 기능
